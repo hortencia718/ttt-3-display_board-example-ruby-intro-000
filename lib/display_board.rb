@@ -1,7 +1,10 @@
-def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]}"
+def display_board
 
-  puts " #{board[3]} | #{board[4]} | #{board[5]}"
+ puts "   |   |   "
+ puts "   |   |   "
+ puts "-----------"
+ puts "   |   |   "
+end "
 
-  puts " #{board[6]} | #{board[7]} | #{board[8]}"
-end #Define a method display_board that prints a 3x3 Tic Tac Toe Board
+
+ #Define a method display_board that prints a 3x3 Tic Tac Toe Board
